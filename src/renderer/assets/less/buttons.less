@@ -1,0 +1,80 @@
+//main:./main.less
+
+
+.router-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    background-color: #eee;
+    border-radius: 2px;
+    border:1px solid #eee;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 15px;
+    user-select: none;
+    padding: 15px;
+    transition: all .3s;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: #000;
+    &:active{
+        transform: scale(.93)
+    }
+    svg{
+        width: 70px;
+        height: 70px;
+        fill: #000;
+        display: block;
+        margin-bottom: 15px;
+    }
+    span{
+        display: block;
+    }
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .3s;
+    width: 100%;
+    margin: 0 10px;
+    &.small{
+        width: auto !important;
+        margin: 10px 0;
+        height: auto;
+        border-radius: 0;
+    }
+    &.zero {
+        margin: 0;
+        
+    }
+    &:active{
+        transform: scale(.93)
+    }
+    &.primary{
+        background-color: #3498db;
+        color: #fff;
+        border-color: #3498db;
+    }
+    &.error{
+        background-color: #e74c3c;
+        color: #fff;
+        border-color: #e74c3c;
+    }
+    &.circle{
+        border-radius: 50% !important;
+        height: 50px !important;
+        width: 50px !important;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+}
