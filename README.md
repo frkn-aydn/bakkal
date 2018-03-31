@@ -1,6 +1,6 @@
-# project-bakkal
+# bakkal
 
-> An electron-vue project
+> Bu projeyi komşumuz için hazırladım. O yüzden bir çok eksiği olabilir. 
 
 #### Build Setup
 
@@ -13,8 +13,6 @@ npm run dev
 
 # build electron application for production
 npm run build
-
-
 ```
 
 ---
